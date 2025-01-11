@@ -24,7 +24,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 50px auto 120px ;
+    margin: 50px auto 120px;
 }
 
 .banner-container .title {
@@ -83,4 +83,147 @@
     letter-spacing: 0%;
     text-align: center;
     margin-top: 16px;
+}
+
+.welcome-container {
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 150px auto 120px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.welcome-content h1 {
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    margin: 24px 0;
+}
+
+.welcome-content p {
+    color: rgba(255, 255, 255, 0.466);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.welcome-content h4 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin: 48px;
+}
+
+.join-container {
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.join-container {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.join-container button {
+    border-radius: 8px;
+    padding: 16px 32px 16px 32px;
+    background: #ff0000;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    margin: 64px 0 0 0;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.coming-year-container {
+    width: 1320px;
+    height: 463px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer h4 {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+}
+
+.offer h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    text-transform: capitalize;
+    margin: 22px 0;
+}
+
+.offer p {
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.img img {
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    padding: 43px;
+    margin: 0 50px;
+}
+
+.year h1 {
+    color: rgb(255, 0, 0);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.year p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 16px 0;
+}
+
+.year img{
+    margin: 18px 0 0 0;
 }
