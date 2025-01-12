@@ -224,6 +224,50 @@
     margin: 16px 0;
 }
 
-.year img{
+.year img {
     margin: 18px 0 0 0;
 }
+
+.subtitle {
+    color: rgb(7, 2, 17);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.title {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 16px 0;
+}
+
+.description {
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 8px 0;
+}
+
+.img-container {
+    display: flex;
+    width: 1320px;
+    height: 662.07px;
+    margin: 64px auto 0 ;
+    justify-content: space-between;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.right-img {
+    margin: 50.31px;
+}
+
